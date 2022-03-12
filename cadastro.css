@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fredoka', sans-serif;
+}
+
+body {
+  display: flex;
+  background: linear-gradient(rgb(30, 1, 107), rgb(61, 129, 255));
+  background-repeat: no-repeat;
+  height: 100vh;
+  align-items: center;
+}
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+
+.register-card {
+  background-color: #ffffff50;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: -8px 10px 10px #00000050;
+  width: 350px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #200873;
+}
+
+.label-float input {
+  width: 100%;
+  padding: 5px 5px;
+  display: inline-block;
+  border: 0;
+  border-bottom: 2px solid #20087350;
+  background-color: transparent;
+  outline: 0;
+  min-width: 180px;
+  transition: 0.3s ease-out;
+}
+
+.label-float {
+  position: relative;
+  padding-top: 20px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.label-float input:focus {
+  border-bottom: 2px solid #ffffff50;
+}
+
+.label-float label {
+  color: #200873;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 13px;
+  transition: 0.3s ease-out;
+}
+
+.label-float input:focus + label,
+.label-float input:valid + label {
+  font-size: 12px;
+  margin-top: 0;
+}
+
+.register-btn {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background-color: transparent;
+  border-color: #20087350;
+  color: #200873;
+  padding: 10px 40px;
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 22px;
+  border-radius: 9px;
+  outline: 0;
+  cursor: pointer;
+  transition: 0.2s ease-out;
+}
+
+button:hover {
+  background-color: #311d7c;
+  color: #fff;
+}
