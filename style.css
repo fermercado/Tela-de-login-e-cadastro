@@ -48,7 +48,7 @@ h1 {
 
 .label-float {
   position: relative;
-  padding: 15px;
+  padding-top: 20px;
   margin-top: 5%;
   margin-bottom: 5%;
 }
@@ -66,7 +66,8 @@ h1 {
   transition: 0.3s ease-out;
 }
 
-.label-float input:focus + label {
+.label-float input:focus + label,
+.label-float input:valid + label {
   font-size: 12px;
   margin-top: 0;
 }
@@ -88,17 +89,12 @@ button {
   outline: 0;
   cursor: pointer;
   transition: 0.2s ease-out;
+  margin-bottom: 10%;
 }
 
 button:hover {
   background-color: #311d7c;
   color: #fff;
-}
-
-hr {
-  margin-top: 10%;
-  margin-bottom: 10%;
-  border-color: #ffffff40;
 }
 
 p {
