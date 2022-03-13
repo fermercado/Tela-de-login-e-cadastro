@@ -118,3 +118,18 @@ button:hover {
   right: 10px;
   cursor: pointer;
 }
+
+#msgError {
+  text-align: center;
+  color: #ff0000;
+  padding: 5px;
+  display: none;
+  background-color: #ffacac;
+}
+#msgSuccess {
+  text-align: center;
+  color: #00bb00;
+  padding: 5px;
+  display: none;
+  background-color: #c1ecc1;
+}

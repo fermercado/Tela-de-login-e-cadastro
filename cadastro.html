@@ -16,28 +16,32 @@
     <div class="register-container">
       <div class="register-card">
         <h1>Cadastrar</h1>
+        <div id="msgError"></div>
+        <div id="msgSuccess"></div>
         <div class="label-float">
           <input type="text" id="name" placeholder="" required />
-          <label for="name">Nome</label>
+          <label id="labelName" for="name">Nome</label>
         </div>
         <div class="label-float">
-          <input type="text" id="usuario" placeholder="" required />
-          <label for="usuario">Usuario</label>
+          <input type="text" id="user" placeholder="" required />
+          <label id="labelUser" for="user">Usuario</label>
         </div>
         <div class="label-float">
           <input type="password" id="password" placeholder="" required />
-          <label for="password">Senha</label>
+          <label id="labelPassword" for="password">Senha</label>
           <i id="btnPassword" class="fa-solid fa-eye"></i>
         </div>
 
         <div class="label-float">
           <input type="password" id="confirmPassword" placeholder="" required />
-          <label for="confirmpassword">Confirmar senha</label>
+          <label id="labelConfirmPassword" for="confirmpassword"
+            >Confirmar senha</label
+          >
           <i id="btnConfirmPassword" class="fa-solid fa-eye"></i>
         </div>
 
         <div class="register-btn">
-          <button>Cadastar</button>
+          <button onclick="cadastrar()">Cadastar</button>
         </div>
       </div>
     </div>
