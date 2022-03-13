@@ -19,13 +19,27 @@ body {
   justify-content: center;
   align-content: center;
   width: 100%;
+  animation: showLogin 0.8s forwards;
+}
+
+@keyframes showLogin {
+  from {
+    opacity: 0;
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
 }
 
 .login-card {
-  background-color: #ffffff50;
+  background-color: #ffffff90;
   border-radius: 10px;
   padding: 20px;
   box-shadow: -8px 10px 10px #00000050;
+  width: 350px;
 }
 
 h1 {
@@ -44,6 +58,7 @@ h1 {
   outline: 0;
   min-width: 180px;
   transition: 0.3s ease-out;
+  font-size: 12px;
 }
 
 .label-float {
@@ -62,13 +77,13 @@ h1 {
   position: absolute;
   top: 0;
   left: 0;
-  margin-top: 13px;
+  margin-top: 16px;
   transition: 0.3s ease-out;
 }
 
 .label-float input:focus + label,
 .label-float input:valid + label {
-  font-size: 12px;
+  font-size: 14px;
   margin-top: 0;
 }
 
@@ -109,4 +124,13 @@ a {
 a:hover {
   color: #ffffff;
   transition: 0.2s ease-out;
+}
+
+.fa-eye {
+  color: #200873;
+  font-size: 15px;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  cursor: pointer;
 }
