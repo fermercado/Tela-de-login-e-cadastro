@@ -39,7 +39,8 @@ body {
   border-radius: 10px;
   padding: 20px;
   box-shadow: -8px 10px 10px #00000050;
-  width: 350px;
+  max-width: 350px;
+  width: 90%;
 }
 
 h1 {
@@ -133,4 +134,19 @@ a:hover {
   top: 20px;
   right: 10px;
   cursor: pointer;
+}
+
+#msgError {
+  text-align: center;
+  color: #ff0000;
+  padding: 5px;
+  display: none;
+  background-color: #ffacac;
+}
+#msgSuccess {
+  text-align: center;
+  color: #00bb00;
+  padding: 5px;
+  display: none;
+  background-color: #c1ecc1;
 }

@@ -15,18 +15,20 @@
     <div class="login-container">
       <div class="login-card">
         <h1>Login</h1>
+        <div id="msgError"></div>
+
         <div class="label-float">
-          <input type="text" id="usuario" placeholder="" required />
-          <label for="usuario">Usuario</label>
+          <input type="text" id="user" placeholder="" required />
+          <label id="labelUser" for="usuario">Usuario</label>
         </div>
         <div class="label-float">
           <input type="password" id="password" placeholder="" required />
-          <label for="password">Senha</label>
+          <label id="labelPassword" for="password">Senha</label>
           <i class="fa-solid fa-eye"></i>
         </div>
 
         <div class="login-btn">
-          <button>Entrar</button>
+          <button onclick="access()">Entrar</button>
         </div>
 
         <p>
