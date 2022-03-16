@@ -1,4 +1,6 @@
 # Tela de login e cadastro
 
-### DESCRIÇÃO: - Validação de acesso por nome de usuario e senha
-### OBJETIVO: - fortalecer conhecimentos em HTML, CSS , JavaScript usando localstorage
+Projeto responsivo utilizando HTML/CSS/JavaScript, com validação por keiup e armazenando informações no localstorage.
+
+
+Deploy: https://fermercado.github.io/Tela-de-login-e-cadastro/
